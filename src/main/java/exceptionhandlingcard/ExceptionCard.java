@@ -46,7 +46,7 @@ public class ExceptionCard
         expirydate=scan.next();
         }
         catch(InputMismatchException  e) {
-        	log.info(String.valueOf(e));
+        	log.info(e);
         	System.exit(0);
         }
         Long card=1234l;
