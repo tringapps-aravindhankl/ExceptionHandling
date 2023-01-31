@@ -52,8 +52,7 @@ class Welcome {
     }
 
     void balance() {
-//        log.info("your balance is "+balance);
-    	log.log(Level.INFO,() ->"Your balance is: "+balance);
+        log.fine("your balance is {}",balance);
     }
 }
 
