@@ -55,7 +55,7 @@ public class ExceptionCard
         boolean ans=s2.helo(card);
         System.out.println(ans);
 	if(cardnumber==card) {
-			log.fine("CardHolder: {} cardnumber: {} expirydate: {}" ,cardholder,cardnumber,expirydate);
+			log.fine("CardHoldeer: {} cardnumber: {} expirydate: {}" ,cardholder,cardnumber,expirydate);
 		}
 		else {
 			log.info("Failed");
