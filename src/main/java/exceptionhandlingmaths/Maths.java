@@ -14,7 +14,7 @@ class Graph implements cloneable {
 
     void active() {
         Boolean c = coordinatex.equals(coordinatey);
-        log.info(String.valueOf(c));
+        log.info(c);
     }
     Graph helo()
     {
