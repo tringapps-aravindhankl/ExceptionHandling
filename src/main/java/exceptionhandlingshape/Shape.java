@@ -35,20 +35,20 @@ class Shap {
         if ("TRIANGLe".equalsIgnoreCase(type)) {
             float area = width * length;  
             area = area / 2;
-            log.info("area of triangle is" + area);
+            log.fine("area of triangle is {}" area);
         }
 
         // circle
         else if ("Circle".equalsIgnoreCase(type)) {
             float area1 = radius * radius;
             area1 = area1 * 3.14f;
-            log.info("area of circle is" + area1);
+            log.fine("area of circle is {}",area1);
         }
 
         // rectangle
         else if ("ReCtangle".equalsIgnoreCase(type)) {
             float area2 = width * length;
-            log.info("area of rectangle is" + area2);
+            log.fine("area of rectangle is {}",area2);
         }
 
     }
@@ -57,19 +57,19 @@ class Shap {
         // rectangle
         if ("RectanGle".equalsIgnoreCase(type)) {
             double perimeter1 = 2 * length * width;
-            log.info("Perimeter of rectangle is" + perimeter1);
+            log.fine("Perimeter of rectangle is {}",perimeter1);
         }
 
         // circle
         else if ("cirCle".equalsIgnoreCase(type)) {
             double perimeter2 = 2 * 3.14f * radius;
-            log.info("Perimeter of circle is" + perimeter2);
+            log.fine("Perimeter of circle is {}" , perimeter2);
         }
 
         // triangle
         else if ("TRIAnGLE".equalsIgnoreCase(type)) {
             double perimeter3 = width + length + length1;
-            log.info("Perimeter of trianlge is" + perimeter3);
+            log.fine("Perimeter of trianlge is {}", perimeter3);
         }
     }
 }
