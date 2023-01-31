@@ -53,7 +53,7 @@ public class ExceptionCard
 		Credit s1=new Credit(cardholder,cardnumber,expirydate);
         Credit s2=s1.active();
         boolean ans=s2.helo(card);
-        System.out.println(ans);
+        log.info(String.valueOf(ans);
 	if(cardnumber==card) {
 			log.fine("CardHoldeer: {} cardnumber: {} expirydate: {}" ,cardholder,cardnumber,expirydate);
 		}
