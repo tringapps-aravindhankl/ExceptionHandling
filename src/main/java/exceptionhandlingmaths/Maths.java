@@ -2,7 +2,7 @@ package exceptionhandlingmaths;
 import java.util.*;
 import java.util.logging.*;
 
-class Graph implements Cloneable {
+class Graph implements cloneable {
     Integer coordinatex;
     Integer coordinatey;
     Logger log=Logger.getLogger("hi");
